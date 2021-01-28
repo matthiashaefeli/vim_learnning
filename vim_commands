@@ -1,0 +1,62 @@
+Vim Shortuts
+
+i 		Enter insert mode
+v 		Enter visual mode
+Esc		Enter normal mode
+$		En of line
+0		Start of line
+w		Forward a word
+b		Backward a word
+G		Bottom of file
+gg		Top of file 
+Ctrl + d	Page half down (press and hold for multiple scroll)
+Ctrl + u	Page half up (press and hold for multiple scroll)
+:q 		Quit
+:q!		Quit without save
+:w 		Save file
+:w <filename>	Save file with filename
+:wq		Save and quit
+:set number	Show line numbers
+:set nonumber	Hide line numbers
+:<linenumber>	Jump to line number
+
+enter insert mode before cursor			i
+enter insert mode after cursor			a
+enter insert mode at beginning of liine		I
+enter insert mode at end of line		A
+
+insert new line below cursor			o
+insert new line above cursor			O
+delete character				x
+delete line					dd
+copy line					yy
+paste						p
+
+
+delete two lines				2dd
+delete five characters				5x
+delete from cursor to end of line		dG
+delete from cursor to end of line		d$
+delete from cursor to beginning of file		dgg
+
+Visual mode commnad
+
+y		yank (copy)
+c 		change (cut)
+p		paste
+d		delete highlighted text
+
+Undo		u
+Redo		Ctrl + r
+
+Search in file			/<searchterm>
+Search with case insensitive	/<searchterm>\c
+find next			n
+find previous			N
+
+Search and Replace				:%s/replaceme/withme/g
+Search and Replace with case insensitive	:%s/replaceme\c/withme/g
+Search and Replace with prompt on each	:%s/replaceme/withme/gc
+
+
+
